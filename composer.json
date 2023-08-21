@@ -1,0 +1,23 @@
+{
+    "name": "cosmoverse/blockdata",
+    "description": "A virion for PocketMine-MP that lets plugins store arbitrary block data",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Muqsit",
+            "email": "muqsit@email.com"
+        }
+    ],
+    "require": {
+        "pocketmine/pocketmine-mp": "5.0.0"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "extra": {
+        "virion": {
+            "spec": "3.0",
+            "namespace-root": "cosmicpe\\blockdata"
+        }
+    }
+}
